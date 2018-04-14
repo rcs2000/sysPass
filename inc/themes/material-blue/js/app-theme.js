@@ -78,7 +78,7 @@ sysPass.Theme = function (Common) {
         };
 
         if (Common.passwordData.complexity.symbols) {
-            chars += "!\"\\·@|#$~%&/()=?'¿¡^*[]·;,_-{}<>";
+            chars += "!\"\\@|#$~%&/()=?'^*[];,_-{}<>";
         }
 
         if (Common.passwordData.complexity.numbers) {
